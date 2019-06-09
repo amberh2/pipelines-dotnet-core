@@ -12,7 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace pipelines_dotnet_core
 {
-    public class Startup
+    public class Startup2
     {
         public Startup(IConfiguration configuration)
         {
