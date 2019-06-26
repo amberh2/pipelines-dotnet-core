@@ -4,12 +4,12 @@
 # https://aka.ms/yaml
 
 schedules:
-- cron: "0 0 * * *"
+- cron: "* * * * *"
   displayName: Daily build
   always: true
   branches:
     include:
-- master
+     - master
 
 pool:
   vmImage: 'ubuntu-latest'
